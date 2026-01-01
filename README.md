@@ -27,15 +27,6 @@ $$
 ## 💻 Implementation & Simulation
 The system was implemented in **Python 3.13** using `scipy.integrate.odeint`.
 
-```python
-# Key simulation snippet
-def system(y, t, p, f):
-    W, V, N = y
-    dWdt = P_net - cv*V - cn*N
-    dVdt = rv*V*(1 - V/(beta*W)) - (f+d)*V
-    dNdt = rn*N*(1 - N/(gamma*V)) - (m+p)*N
-    return [dWdt, dVdt, dNdt]
-
 ## Key Insights for Conservation
 * **The $r_V$ Paradox**: The current vegetation regeneration rate ($0.0005$) is insufficient to offset wildfire and deforestation losses, creating a "resource sink."
 * **Conservation Strategy**: A reduction of poaching below $4\%$ and fire management ($f < 0.01$) are the two primary levers identified to flip the system toward a stable positive equilibrium.
