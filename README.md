@@ -1,4 +1,4 @@
-# Project N°28: Dynamical Systems & ODEs for Wildlife Conservation
+# Dynamical Systems & ODEs for Wildlife Conservation
 
 ## 📌 Context & Overview
 In the Pendjari National Park (Benin), the survival of large mammals like the African Buffalo (*Syncerus caffer*) depends on a fragile balance between water availability, forage biomass, and anthropogenic pressures. This project moves beyond static observation to **Dynamical System Modeling**, using **Ordinary Differential Equations (ODEs)** to predict long-term ecosystem stability.
