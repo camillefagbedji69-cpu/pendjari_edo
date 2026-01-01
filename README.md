@@ -14,7 +14,7 @@ We consider the following coupled system:
 $$
 \begin{cases}
 \displaystyle \frac{dW}{dt} = P - (ET + I + R) - c_V V - c_N N \\
-\displaystyle \frac{dV}{dt} = r_V V \left(1 - \frac{V}{K_V(W)}\right) - (f + d)V \\
+\displaystyle \frac{dV}{dt} = r_V V \left(1 - \frac{V}{K_V(W)}\right) - (f + d)V - c W \\
 \displaystyle \frac{dN}{dt} = r_N N \left(1 - \frac{N}{K_N(V)}\right) - (m + p)N
 \end{cases}
 $$
